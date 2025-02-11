@@ -29,4 +29,8 @@ public class next_Scene : MonoBehaviour
         Menu.SetActive(true);
         Options.SetActive(false);
     }
+    public void nextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
