@@ -22,4 +22,5 @@ public class Drag : MonoBehaviour
     private void OnMouseUp() { 
         dragging = false;
     }
+   
 }
