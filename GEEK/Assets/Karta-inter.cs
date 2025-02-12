@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Karta : MonoBehaviour
+public class Karta_inter : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
