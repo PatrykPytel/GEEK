@@ -17,7 +17,10 @@ public class paper_hide : MonoBehaviour
     private void OnMouseUp()
     {
         if (transform.position.y < granica) {
+            Vector3 currentPosition = paper.transform.position;
+            currentPosition.x = curr.transform.position.x;
             curr.SetActive(false);
+            paper.transform.position = currentPosition;
             paper.SetActive(true);
         }
     }
