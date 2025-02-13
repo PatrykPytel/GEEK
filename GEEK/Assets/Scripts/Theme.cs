@@ -18,7 +18,7 @@ public class Theme : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Mouse0)) {
-            Tytul.GetComponent<Fade>().HideUI();
+            Tytul.GetComponent<Fade>().fadeOut = true;
           //  while (cooldown <= 0)
           //  {
             //    cooldown -= Time.deltaTime;
