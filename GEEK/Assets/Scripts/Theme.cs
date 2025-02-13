@@ -19,11 +19,11 @@ public class Theme : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Mouse0)) {
             Tytul.GetComponent<Fade>().HideUI();
-            while (cooldown <= 0)
-            {
-                cooldown -= Time.deltaTime;
-            }
-            Credits.GetComponent<Fade>().ShowUI();
+          //  while (cooldown <= 0)
+          //  {
+            //    cooldown -= Time.deltaTime;
+          //  }
+        //    Credits.GetComponent<Fade>().ShowUI();
         }
     }
 }
