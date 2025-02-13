@@ -13,17 +13,20 @@ public class Theme : MonoBehaviour
     {
         
     }
+    void Cooldown()
+    {
+        Credits.GetComponent<Fade>().fadeIn = true;
+    }
 
     // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Mouse0)) {
+
             Tytul.GetComponent<Fade>().fadeOut = true;
-          //  while (cooldown <= 0)
-          //  {
-            //    cooldown -= Time.deltaTime;
-          //  }
-        //    Credits.GetComponent<Fade>().ShowUI();
+            //Tytul.SetActive(false);
+            Invoke("Cooldown", cooldown);
+            Credits.SetActive(true);
         }
     }
 }

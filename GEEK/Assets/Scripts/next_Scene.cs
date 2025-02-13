@@ -7,9 +7,15 @@ public class next_Scene : MonoBehaviour
 {
     public GameObject Menu;
     public GameObject Options;
-    public void ContinueBtn()
+    private float cooldown= 2f;
+    void Cooldown()
     {
         SceneManager.LoadScene("Main_Menu");
+    }
+    public void ContinueBtn()
+    {
+        Menu.GetComponent<Fade>().fadeOut = true;
+        Invoke("Cooldown", cooldown);
     }
     public void PlayGame()
     {

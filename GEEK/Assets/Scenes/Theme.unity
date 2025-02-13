@@ -441,7 +441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &566909741
 RectTransform:
   m_ObjectHideFlags: 0
@@ -474,7 +474,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566909740}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -491,6 +491,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _group: {fileID: 566909742}
+  fadeIn: 0
+  fadeOut: 0
   time: 1
 --- !u!1 &936948390
 GameObject:
@@ -641,6 +643,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _group: {fileID: 936948395}
+  fadeIn: 0
+  fadeOut: 0
   time: 1
 --- !u!225 &936948395
 CanvasGroup:
@@ -1125,7 +1129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 061b9ee8e1d3bb849b5cc602db0f4ad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Menu: {fileID: 0}
+  Menu: {fileID: 566909740}
   Options: {fileID: 0}
 --- !u!1 &1494718960
 GameObject:
@@ -1210,7 +1214,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1390271924}
         m_TargetAssemblyTypeName: next_Scene, Assembly-CSharp
         m_MethodName: ContinueBtn
         m_Mode: 1
