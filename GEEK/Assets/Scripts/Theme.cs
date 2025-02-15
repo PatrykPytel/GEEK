@@ -15,6 +15,7 @@ public class Theme : MonoBehaviour
     }
     void Cooldown()
     {
+        Tytul.SetActive(false);
         Credits.GetComponent<Fade>().fadeIn = true;
     }
 
