@@ -25,7 +25,6 @@ public class Theme : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Mouse0)) {
 
             Tytul.GetComponent<Fade>().fadeOut = true;
-            //Tytul.SetActive(false);
             Invoke("Cooldown", cooldown);
             Credits.SetActive(true);
         }
