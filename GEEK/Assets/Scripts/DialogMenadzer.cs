@@ -37,6 +37,7 @@ public class DialogMenadzer : MonoBehaviour
         
         AnimateTextColor();
     }
+
     
     public void NextMessage() { 
         activeMessage++;
