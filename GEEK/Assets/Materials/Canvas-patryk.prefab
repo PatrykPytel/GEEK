@@ -1150,7 +1150,7 @@ GameObject:
   - component: {fileID: 2872745615561672579}
   - component: {fileID: 8697346764781394210}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas-patryk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

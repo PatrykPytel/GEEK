@@ -379,6 +379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper
       objectReference: {fileID: 0}
+    - target: {fileID: 5816262737874550988, guid: a0a8b4836df371641990c62acdb1eeb4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7910261687322492534, guid: a0a8b4836df371641990c62acdb1eeb4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.65
@@ -435,6 +439,22 @@ PrefabInstance:
     - target: {fileID: 355433576274869941, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 373233334111337924, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 536.3016
+      objectReference: {fileID: 0}
+    - target: {fileID: 373233334111337924, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 330.1671
+      objectReference: {fileID: 0}
+    - target: {fileID: 373233334111337924, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 33.27716
+      objectReference: {fileID: 0}
+    - target: {fileID: 373233334111337924, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 26.344486
       objectReference: {fileID: 0}
     - target: {fileID: 401121844724397345, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
       propertyPath: m_Pivot.x
@@ -516,6 +536,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2386173509076407289, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5290071501747644632, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -542,8 +566,33 @@ PrefabInstance:
       value: once you progress in the game click the e button to activate the instructions
         for that stage
       objectReference: {fileID: 0}
+    - target: {fileID: 6824053807914803465, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824053807914803465, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_Colors.m_PressedColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824053807914803465, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824053807914803465, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824053807914803465, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634958018644263906, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5290071501747644632, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
