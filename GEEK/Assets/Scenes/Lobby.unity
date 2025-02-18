@@ -528,6 +528,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6819718158141690801, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: messages.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6819718158141690801, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: messages.Array.data[4].message
+      value: in this game your objective is to hack your victims and learn about
+        their personal information
+      objectReference: {fileID: 0}
+    - target: {fileID: 6819718158141690801, guid: cc26590103fa69b4ea2bdbec6e326cd8, type: 3}
+      propertyPath: messages.Array.data[5].message
+      value: once you progress in the game click the e button to activate the instructions
+        for that stage
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
