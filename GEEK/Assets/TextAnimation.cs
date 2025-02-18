@@ -8,6 +8,7 @@ public class TextAnimation : MonoBehaviour
 {
     // Start is called before the first frame update
     public string strText;
+    private bool once  = true;
    
     private TMP_Text m_TextComponent;
     private void Awake()
@@ -38,6 +39,10 @@ public class TextAnimation : MonoBehaviour
     }
     public void Animate()
     {
-        StartCoroutine(AnimateText(strText)); 
+        if(once)
+        {
+            StartCoroutine(AnimateText(strText));
+        }
+        once = false;
     }
 }
