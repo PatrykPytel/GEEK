@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inspektor : MonoBehaviour
 {
     public GameObject Paper;
     private Dialogtrigger  m_dialogtrigger;
-    public bool isUsefull = false;
-
+    public bool correct = false;
+    private bool done = true;
 
     // Start is called before the first frame update
     private void Awake()
@@ -18,14 +19,16 @@ public class Inspektor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    private void OnMouseDown()
-    {
-        if(isUsefull)
+        if(done)
         {
-            Paper.GetComponent<TextAnimation>().Animate();
+            if (correct)
+            {
+                Paper.GetComponent<TextAnimation>().Animate();
+                m_dialogtrigger.StartDialog();
+                correct = false;
+                done = false;
+            }
         }
-        m_dialogtrigger.StartDialog();
     }
+
 }
