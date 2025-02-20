@@ -11,13 +11,7 @@ public class DialogMenadzer : MonoBehaviour
     public TextMeshProUGUI actorName;
     public TextMeshProUGUI messageText;
     public RectTransform backgroundBox;
-    public GameObject fabu³a;
-    public GameObject fabu³a1;
-    public GameObject fab2;
-    int fabulacount = 5000;
-    int fabula1count = 5000;
-    int fabula2count = 5000;
-    bool showfab = false;
+
 
     Message[] currentMessages;
     Actor[] currentActors;
@@ -72,7 +66,7 @@ public class DialogMenadzer : MonoBehaviour
     void Start()
     {
         backgroundBox.transform.localScale = Vector3.zero;
-        fabu³a.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -83,58 +77,8 @@ public class DialogMenadzer : MonoBehaviour
             NextMessage();
         }
 
-        if (isActive == false)
-        {
-            showfab = true;
-            fabu³a1.SetActive(false);
-            fab2.SetActive(false);
-            fabu³a.SetActive(true);
 
-        }
-        if (showfab)
-        {
-            fabulacount--;
-            if (fabulacount < 0)
-            {
-                fabu³a.SetActive(false);
-                fab2.SetActive(false);
-                fabu³a1.SetActive(true);
-                fabula1count--;
-            }
-            if (fabulacount == 0)
-            {
-                fabu³a.SetActive(false);
-                fab2.SetActive(false);
-                fabu³a1.SetActive(true);
-                fabula1count--;
-            }
-            if (fabula1count < 0)
-            {
-                fabu³a1.SetActive(false);
-                fab2.SetActive(true);
-                fabula2count--;
-            }
-            if (fabula1count == 0)
-            {
-                fabu³a1.SetActive(false);
-                fab2.SetActive(true);
-                fabula2count--;
-            }
-            if (fabula2count < 0)
-            {
-                fab2.SetActive(false);
-            }
-            if (fabula2count == 0)
-            {
-                fab2.SetActive(false);
-            }
 
-        }
- 
-        if((fabulacount<=0) && (fabula1count<=0) && (fabula2count<=0))
-        {
-            showfab = false;
-        }
     }
 }
    

@@ -1736,6 +1736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6605583c008d3d54f9b516c7ed8ce28c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogmenadzer: {fileID: 0}
   messages:
   - actorId: 0
     message: in this game your objective is to hack your victims and learn about
@@ -1794,9 +1795,6 @@ MonoBehaviour:
   actorName: {fileID: 1098605453763882551}
   messageText: {fileID: 6231455259836486730}
   backgroundBox: {fileID: 8726288886757704392}
-  "fabu\u0142a": {fileID: 76855208}
-  "fabu\u0142a1": {fileID: 1024331783}
-  fab2: {fileID: 2041218522}
 --- !u!224 &3710052132213383433
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2226,6 +2224,7 @@ GameObject:
   - component: {fileID: 6389308630518544940}
   - component: {fileID: 2090182816263089976}
   - component: {fileID: 3683183479513741353}
+  - component: {fileID: 8726288886757704393}
   m_Layer: 5
   m_Name: DialogBox
   m_TagString: Untagged
@@ -2602,6 +2601,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 227.20001}
   m_SizeDelta: {x: -229, y: 298.2}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8726288886757704393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5461870924983676236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0984effa44826d146b72fa8908f1083a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "fabu\u0142a": {fileID: 0}
+  "fabu\u0142a1": {fileID: 0}
+  fab2: {fileID: 0}
 --- !u!224 &8872734975668891144
 RectTransform:
   m_ObjectHideFlags: 0
