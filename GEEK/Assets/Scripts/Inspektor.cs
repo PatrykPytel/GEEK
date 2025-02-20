@@ -27,6 +27,7 @@ public class Inspektor : MonoBehaviour
                 m_dialogtrigger.StartDialog();
                 correct = false;
                 done = false;
+    
             }
         }
     }
