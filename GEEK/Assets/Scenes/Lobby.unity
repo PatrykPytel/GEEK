@@ -2613,9 +2613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0984effa44826d146b72fa8908f1083a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "fabu\u0142a": {fileID: 0}
-  "fabu\u0142a1": {fileID: 0}
-  fab2: {fileID: 0}
+  "fabu\u0142a": {fileID: 76855208}
+  "fabu\u0142a1": {fileID: 1024331783}
+  fab2: {fileID: 2041218522}
 --- !u!224 &8872734975668891144
 RectTransform:
   m_ObjectHideFlags: 0
