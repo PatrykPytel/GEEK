@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Dialogtrigger : MonoBehaviour
 {
-    public GameObject dialogmenadzer;
+ //   public GameObject dialogmenadzer;
     public Message[] messages;
     public Actor[] actors;
 
