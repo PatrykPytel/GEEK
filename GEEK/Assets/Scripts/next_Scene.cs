@@ -7,6 +7,7 @@ public class next_Scene : MonoBehaviour
 {
     public GameObject Menu;
     public GameObject Options;
+    public GameObject controls;
     private float cooldown= 2f;
     void Cooldown()
     {
@@ -34,6 +35,18 @@ public class next_Scene : MonoBehaviour
     {
         Menu.SetActive(true);
         Options.SetActive(false);
+    }
+    public void OpenControls()
+    {
+        Menu.SetActive(false);
+        Options.SetActive(false);
+        controls.SetActive(true);
+    }
+    public void CloseControls()
+    {
+        Menu.SetActive(false);
+        Options.SetActive(true);
+        controls.SetActive(false);
     }
     public void nextScene()
     {
