@@ -18,6 +18,7 @@ public class teleport : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        //Debug.Log("ds");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
