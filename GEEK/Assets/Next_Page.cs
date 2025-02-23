@@ -23,5 +23,10 @@ public class Next_Page : MonoBehaviour
         nextpage.SetActive(true);
 
     }
+    private void OnMouseDown()
+    {
+        currentpage.SetActive(false);
+        nextpage.SetActive(true);
+    }
 
 }
