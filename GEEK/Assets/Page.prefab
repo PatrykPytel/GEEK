@@ -592,7 +592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   informacja: {fileID: 0}
-  wrong_response: {fileID: 7705339398322638709}
+  dialog: {fileID: 0}
   counter: {fileID: 0}
 --- !u!1 &4713921555633398991
 GameObject:
