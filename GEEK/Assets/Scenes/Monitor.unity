@@ -1731,7 +1731,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1569481574
 Transform:
   m_ObjectHideFlags: 0
@@ -4662,11 +4662,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\"W\u0142adze przeprowadzi\u0142y post\u0119powanie azylowe i przyzna\u0142y
-    (Romanowskiemu) status uchod\u017Acy. S\u0105d zatwierdzi\u0142 decyzj\u0119
-    w\u0142adz. Osoba zainteresowana mo\u017Ce korzysta\u0107 z prawa do swobodnego
-    przemieszczania si\u0119\" \u2013 napisa\u0142 w kr\xF3tkim komunikacie w\u0119gierski
-    resort sprawiedliwo\u015Bci."
+  m_text: gsrrgsrgf
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bc2ae17996d038a4f9e4b15129c85221, type: 2}
   m_sharedMaterial: {fileID: -8737081797835879785, guid: bc2ae17996d038a4f9e4b15129c85221, type: 2}
