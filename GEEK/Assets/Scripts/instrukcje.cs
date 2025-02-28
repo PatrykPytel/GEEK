@@ -12,12 +12,12 @@ public class instrukcje : MonoBehaviour
     public GameObject ins3;
     public GameObject ins4;
     public GameObject ins5;
-    int inscount = 5000;
-    int ins1count = 5000;
-    int ins2count = 5000;
-    int ins3count = 5000;
-    int ins4count = 5000;
-    int ins5count = 5000;
+    int inscount = 2000;
+    int ins1count = 2000;
+    int ins2count = 3000;
+    int ins3count = 3000;
+    int ins4count = 3000;
+    int ins5count = 2000;
     bool showins = false;
     
     public void Start()
@@ -28,16 +28,8 @@ public class instrukcje : MonoBehaviour
         ins3.SetActive(false);
         ins4.SetActive(false);
         ins5.SetActive(false);
-
-    }
-    public void Click()
-    {
         showins = true;
-
-
-
-            
-
+        ins.SetActive(true);
 
 
     }
