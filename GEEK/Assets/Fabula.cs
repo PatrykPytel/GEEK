@@ -7,9 +7,9 @@ public class Fabula : MonoBehaviour
     public GameObject fabu³a;
     public GameObject fabu³a1;
     public GameObject fab2;
-    int fabulacount = 5000;
-    int fabula1count = 5000;
-    int fabula2count = 5000;
+    int fabulacount = 2000;
+    int fabula1count = 3000;
+    int fabula2count = 3000;
     bool showfab = false;
     // Start is called before the first frame update
     void Start()
