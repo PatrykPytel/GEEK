@@ -24,7 +24,7 @@ public class Inspektor : MonoBehaviour
             if (correct)
             {
                 Paper.GetComponent<TextAnimation>().Animate();
-                m_dialogtrigger.StartDialog();
+               // m_dialogtrigger.StartDialog();
                 correct = false;
                 done = false;
     
