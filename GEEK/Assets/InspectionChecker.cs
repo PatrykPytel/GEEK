@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class InspectionChecker : MonoBehaviour
 {
     public GameObject informacja;
-    public GameObject dialog;
-    public GameObject counter;
-    private Outline m_outline;
+    private Dialogtrigger m_dialogtrigger;
+    public GameObject Paper;
+    private bool done = true;
     // Start is called before the first frame update
     void Start()
     {
-        m_outline = GetComponent<Outline>();
+  
+        m_dialogtrigger = GetComponent<Dialogtrigger>();
     }
 
     // Update is called once per frame
@@ -22,9 +23,12 @@ public class InspectionChecker : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if(informacja.GetComponent<OutlineInspektor>().isoutlined == true &&  m_outline.enabled == true)
-        {
-             dialog.GetComponent<Inspektor>().correct = true;
+        if(informacja.GetComponent<OutlineInspektor>().isoutlined  && done)
+        {            
+             Paper.GetComponent<TextAnimation>().Animate();
+            m_dialogtrigger.StartDialog();
+             done = false;
+             
         }
     }
 }
