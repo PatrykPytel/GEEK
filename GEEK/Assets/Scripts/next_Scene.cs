@@ -9,7 +9,7 @@ public class next_Scene : MonoBehaviour
     public GameObject Options;
     public GameObject controls;
     private float cooldown= 2f;
-    void Cooldown()
+    public void Cooldown()
     {
         SceneManager.LoadScene("Main_Menu");
     }
