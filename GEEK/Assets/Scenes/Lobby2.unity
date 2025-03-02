@@ -676,7 +676,7 @@ Transform:
   m_GameObject: {fileID: 508831203}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.61, y: 0.29, z: 0}
+  m_LocalPosition: {x: -10.19, y: 0.29, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1.2386}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -797,7 +797,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: bc9e01b0ead203445831f0f0ac434c5d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 858176391838c4d4380d625c43f5f069, type: 3}
   m_Color: {r: 0.9019608, g: 0.9137255, b: 0.7882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1577,6 +1577,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034516286}
   m_CullTransparentMesh: 1
+--- !u!1 &1090807053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1090807056}
+  - component: {fileID: 1090807055}
+  - component: {fileID: 1090807054}
+  m_Layer: 0
+  m_Name: trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1090807054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090807053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46cd85c29b1b5944ca180fc86f3e609b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1090807055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090807053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6605583c008d3d54f9b516c7ed8ce28c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - actorId: 0
+    message: GREAT JOB!
+  - actorId: 0
+    message: YOU COMPLETED YOUR FIRST TASK!
+  - actorId: 0
+    message: 'YOUR FAMILY WILL BE SPARED THIS DAY! '
+  - actorId: 0
+    message: ITS NOT THE END THOUGH!
+  - actorId: 0
+    message: 'HERE IS A SECOND TASK! '
+  - actorId: 0
+    message: GOOD LUCK!
+  actors:
+  - name: rggrerty
+    sprite: {fileID: 21300000, guid: 52103fa36314ed9489edb21afc104e82, type: 3}
+--- !u!4 &1090807056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090807053}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.3587055, y: 1.3991886, z: -9.96264}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1151518143
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,7 +1769,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: bc9e01b0ead203445831f0f0ac434c5d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 858176391838c4d4380d625c43f5f069, type: 3}
   m_Color: {r: 0.9019608, g: 0.9137255, b: 0.7882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1900,8 +1973,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278255373
+  m_fontColor: {r: 0.05260229, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2626,3 +2699,4 @@ SceneRoots:
   - {fileID: 1704916401}
   - {fileID: 1669346334}
   - {fileID: 250424994}
+  - {fileID: 1090807056}
