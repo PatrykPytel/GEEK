@@ -591,8 +591,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278255381
+  m_fontColor: {r: 0.08276451, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6559,8 +6559,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278255407
+  m_fontColor: {r: 0.18382645, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -12618,8 +12618,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4279959296
+  m_fontColor: {r: 0, g: 1, b: 0.101481676, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -20430,8 +20430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You can do that through inspecting their profile by clicking the content
-    with the left button of your mouse
+  m_text: Start by clicking the two apps you see on your screen!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bc2ae17996d038a4f9e4b15129c85221, type: 2}
   m_sharedMaterial: {fileID: -8737081797835879785, guid: bc2ae17996d038a4f9e4b15129c85221, type: 2}
@@ -20440,8 +20439,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278255374
+  m_fontColor: {r: 0.053014517, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -24491,7 +24490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1569481574
 Transform:
   m_ObjectHideFlags: 0
@@ -24585,8 +24584,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Once you get the information you can close it with the space button on
-    your keyboard
+  m_text: Then you will need to click the important info and the theme with missing
+    information on your document.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bc2ae17996d038a4f9e4b15129c85221, type: 2}
   m_sharedMaterial: {fileID: -8737081797835879785, guid: bc2ae17996d038a4f9e4b15129c85221, type: 2}
@@ -24595,8 +24594,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278255370
+  m_fontColor: {r: 0.03901875, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -25065,8 +25064,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278255382
+  m_fontColor: {r: 0.08675194, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -38568,7 +38567,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585021860787318114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.39}
   m_LocalScale: {x: 0.69064, y: 0.6906399, z: 0.69064}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39209,7 +39208,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8008104227007094044}
+      - m_Target: {fileID: 1967912212}
         m_TargetAssemblyTypeName: Next_Page, Assembly-CSharp
         m_MethodName: NextPage
         m_Mode: 1
