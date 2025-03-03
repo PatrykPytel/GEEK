@@ -25,7 +25,7 @@ public class RESULTS : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }else
         {
-            SceneManager.LoadScene("Lobby2");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

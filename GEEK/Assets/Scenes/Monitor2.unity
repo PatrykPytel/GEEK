@@ -7192,7 +7192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &588521982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18366,7 +18366,6 @@ GameObject:
   - component: {fileID: 1506449225}
   - component: {fileID: 1506449224}
   - component: {fileID: 1506449223}
-  - component: {fileID: 1506449222}
   m_Layer: 5
   m_Name: WORK_outlin
   m_TagString: Untagged
@@ -18393,20 +18392,6 @@ RectTransform:
   m_AnchoredPosition: {x: -964.35, y: -493.96}
   m_SizeDelta: {x: 10.3186, y: 4.208}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1506449222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506449220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53f3efd0a4b2aca4f826fa13ead11bb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  informacja: {fileID: 0}
-  Paper: {fileID: 0}
 --- !u!114 &1506449223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21489,8 +21474,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d74acd526b21e1246b8d3303fbe0395e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paper_closed: {fileID: 0}
-  paper_opened: {fileID: 0}
+  paper_closed: {fileID: 1064121944}
+  paper_opened: {fileID: 1793028229}
 --- !u!61 &1743410616
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22117,7 +22102,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1793028230
 Transform:
   m_ObjectHideFlags: 0
@@ -24882,8 +24867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d74acd526b21e1246b8d3303fbe0395e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paper_closed: {fileID: 0}
-  paper_opened: {fileID: 0}
+  paper_closed: {fileID: 1064121944}
+  paper_opened: {fileID: 588521981}
 --- !u!61 &1950531545
 BoxCollider2D:
   m_ObjectHideFlags: 0
